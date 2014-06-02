@@ -1,0 +1,149 @@
+/* gssb.css, by J. Xue, craete -20140526- */
+
+body.gssbWechatArchive {
+    margin:10px; 
+    background:black;
+    font: 100%/1.33 Verdana, sans-serif;
+    text-align: left;
+}
+
+h1.title {
+    background: white;
+    position: relative;
+    margin: 5px auto;
+    height: 120px;
+    width: 600px;
+    font-size: 200%;
+    border-radius:5px;
+    padding: 10px;
+}
+
+div.records {
+    background: white;
+    position: inline-block;
+    float: left;
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid #261a14;
+    border-radius: 5px;
+}
+div.stat{
+    position: fixed;
+    top: 200px;
+    left: 610px;
+    width: 200px;
+    margin-left: 20px;
+    text-align:right;
+    font-size: 10px;
+}
+
+div.queryName{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.typeStat, div.speakerStat{
+    border-radius:5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+div.typeStat{
+    background-color: #1240AB;
+    color: white;
+}
+div.speakerStat{
+    background-color: #FFAA00;
+    color: white;
+}
+div.typeData,
+div.speakerData{
+    display: inline;
+    margin-left: 10px;
+}
+span.speakerShow {
+    color: #1240AB;
+}
+span.typeShow {
+    color: #FFAA00;
+}
+
+span.total {
+    display: block;
+    font-weight: bold;
+}
+div.typeStat span.total {
+    color: #FFAA00;
+}
+div.speakerStat span.total {
+    color: #1240AB;
+}
+
+span.speakerShow:hover,
+span.typeShow:hover,
+span.total:hover{
+    cursor: hand;
+    cursor: pointer;
+    background-color: white;
+    color: #1240AB
+}
+
+.timestamp:hover{
+    cursor: hand;
+    cursor: pointer;
+}
+
+div.message{
+    border-radius:5px;
+    border: 5px solid #E0E0E0;
+    vertical-align: text-top;
+    margin: 10px;
+    background-color: #E0E0E0;
+}
+
+div.timestamp{
+    font-size:60%;
+    color: #a0a0a0;
+}
+
+span.content{
+    margin: 15px;
+}
+
+span.unknown{
+    background-color: #FFDDDD;
+}
+
+.monthlySG,
+.weeklySG,
+.dailySG {
+    background: white;
+    position: inline;
+    width: 600px;
+    float: left;
+    margin: 10px auto;
+    border: 1px solid #261a14;
+    border-radius: 5px;
+    font: 10px;
+}
+
+.chord path {
+  fill-opacity: .67;
+  stroke: #000;
+  stroke-width: 0.2px;
+}
+
+#datepicker {
+    position: fixed;
+    top: 20px;
+    left: 610px;
+    width: 200px;
+    margin-left: 20px;
+    text-align:right;
+    font-size: 10px;    
+}
+#datepicker .ui-datepicker-close {
+    display: none;
+}
+
